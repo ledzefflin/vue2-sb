@@ -1,0 +1,20 @@
+{
+  "ignore": {
+    "vue": {
+      "versions": "^3",
+      "reason": "vue2"
+    },
+    "vue-router": {
+      "versions": "^4",
+      "reason": "vue2"
+    },
+    "vuex": {
+      "versions": "^4",
+      "reason": "vue2"
+    },
+    "vue-template-compiler": {
+      "versions": "^2.7",
+      "reason": "vue2"
+    }
+  }
+}

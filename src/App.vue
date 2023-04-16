@@ -2,11 +2,28 @@
   <div id="app">
     <nav>
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">About</router-link> |
+      <router-link to="/workspace">Workspace</router-link>
     </nav>
     <router-view />
   </div>
 </template>
+
+<script>
+export default {
+  name: 'App',
+
+  created() {
+    console.log('created::');
+  },
+
+  beforeDestroy() {},
+
+  mounted() {},
+
+  methods: {},
+};
+</script>
 
 <style lang="scss">
 #app {
